@@ -1,5 +1,12 @@
 #import <React/RCTBridgeModule.h>
+#import <UIKit/UIKit.h>
+#import <PhotosUI/PhotosUI.h>
 
-@interface ImageCoolPicker : NSObject <RCTBridgeModule>
+typedef NS_ENUM(NSInteger, RNImagePickerTarget) {
+  camera = 1,
+  library
+};
+
+@interface ImageCoolPicker : NSObject <RCTBridgeModule, UINavigationControllerDelegate, UIActionSheetDelegate, UIImagePickerControllerDelegate, PHPickerViewControllerDelegate>
 
 @end
