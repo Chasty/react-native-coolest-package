@@ -46,7 +46,10 @@ Note: This library does not require Manifest.permission.CAMERA, if your app decl
 ## Methods
 
 ```js
-import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
+import {
+  launchCamera,
+  launchImageLibrary,
+} from 'react-native-image-cool-picker';
 ```
 
 ### `launchCamera()`
