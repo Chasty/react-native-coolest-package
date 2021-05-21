@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-cool-picker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A cool package for image cool picker",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
