@@ -26,7 +26,8 @@ react-native link react-native-image-cool-picker
 
 Add the appropriate keys to your Info.plist,
 
-```<key>NSPhotoLibraryUsageDescription</key>
+```
+  <key>NSPhotoLibraryUsageDescription</key>
 	<string>This app requires access to the photo library.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app does not require access to the microphone.</string>
